@@ -1,0 +1,21 @@
+{
+  "name": "axlink-api-example-usage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Example TypeScript client for the AxLink institution API (/api/v1): one module per API area, a guided demo and a webhook receiver.",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "demo": "tsx src/demo.ts",
+    "webhooks": "tsx src/webhook-server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}
